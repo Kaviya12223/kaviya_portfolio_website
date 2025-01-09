@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>   
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Kaviya's Portfolio Website</title>
+</head>
+<body>
+    
+    <div class="video-background">
+        <video id="bg-video" autoplay muted loop>
+            <source src="ve.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Kaviya G
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#header">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#about-skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#project">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#certi">Certifications</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="#extra">Extracuricular Activities</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="#contact">Contact</a></div>
+
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#header">Home</a>
+                <a href="#about">About</a>
+                <a href="#about-skills">Skills</a>
+                <a href="#project">Projects</a>
+                <a href="#certi">Certifications</a>
+                <a href="#extra">Extracuricular Activities</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="header">
+        <div class="home">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>KAVIYA G</span></h1>
+                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" class="typewriter">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I am a passionate learner and problem solver, dedicated to transforming knowledge into innovative solutions and practical applications across various domains.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/kaviya-g-670685254/"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Kaviya12223"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.geeksforgeeks.org/user/kaviyag/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-regular fa-file-code"></i></a>
+                    <a href="https://leetcode.com/u/KaviyaG2004/"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-solid fa-code"></i></a>
+                </div>
+
+                <div class="btn" data-aos="zoom-out" data-aos-duration="1300" data-aos-delay="1500">
+                    <a href="https://drive.google.com/file/d/1JLtQ1-NZqrzEk8ON67P1hG6PJ16i8nYD/view?usp=sharing" target="https://drive.google.com/file/d/1JLtQ1-NZqrzEk8ON67P1hG6PJ16i8nYD/view?usp=sharing">
+                    <button>Download CV</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="image" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="img/kk.png" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!--                   About                     -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/kavi.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Currently pursuing BTech CSE at Lovely Professional University 🎓 | Proficient in C++, R, and data visualization tools like Excel Tableau and Power BI 💻 |
+                        <br>Studying OOPS, DSA, DBMS, computer networks, and operating systems 📚,<br>
+                        🔍 Passionate about continuous learning, recognizing knowledge as the key to success 🔑. I enjoy applying acquired knowledge practically in my daily life 🌱.<br>
+                        ⏳constantly seeking new opportunities for development 🚀.
+                    </p>                                        
+                    
+                    
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab(event,'education')">Education</p>
+                        <p class="tab-link" onclick="opentab(event,'skills')">Experience</p>
+                        <p class="tab-link" onclick="opentab(event,'lang')">Languages</p>
+
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>B.Tech Computer Science and Engineering</span><br>Lovely Professional University,<br> Phagwara, Punjab<br>2022 - 2026</li>                            
+                            <li><span>Higher Secondary</span><br>St.Joseph's Matriculation Higher Secondary School,<br> Hosur, Tamil Nadu<br>2020-2022</li>
+                           <!--<li><span>Secondary</span><br>Cambridge Matriculation School,<br> Hosur, Tamil Nadu<br>2020</li>-->
+                        </ul>
+                    
+                </div>
+                
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Summer Internship Trainee</span><br>Titan Company<br>2024</li>
+                        <li><span>Graphic Designer</span><br>Renovation Tech Robotics and Aeromodelling - LPU<br>Present</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="lang">
+                    <ul>
+                        <li><span>English</span><br>Working proficiency</li>                            
+                        <li><span>Tamil</span><br>Native proficiency</li>
+                        <li><span>Hindi</span><br>Limited working proficiency</li>
+                        <li><span>Telugu</span><br>Elementary proficiency</li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    
+<!-- /////////////////my skills/////////////////// -->
+
+        <!-- HTML -->
+    <div class="skill" id="about-skills">
+        <h2>Skills</h2>
+        <div class="container">
+            <div id="buttons">
+                <button class="btn-val active" onclick="filterSkills('all')">All</button>
+                <button class="btn-val" onclick="filterSkills('programming')">Programming</button>
+                <button class="btn-val" onclick="filterSkills('frontend')">Frontend</button>
+                <button class="btn-val" onclick="filterSkills('dm')">Data Manipulation</button>
+                <button class="btn-val" onclick="filterSkills('dv')">Data 
+                    visuvalization Tools</button>
+                <button class="btn-val" onclick="filterSkills('non-tech')">Other</button>
+            </div>
+            <div class="row" id="skills-container">
+                <div class="bar frontend">
+                    <div class="info">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                </div>
+                
+                <div class="bar frontend">
+                    <div class="info">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                </div>
+
+                <div class="bar frontend">
+                    <div class="info">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="bar frontend">
+                    <div class="info">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                    </div>
+                </div>
+
+                <div class="bar programming">
+                    <div class="info">
+                        <i class="fas fa-code"></i>
+                        <span>C plus plus</span>
+                    </div>
+                </div>
+                <div class="bar programming">
+                    <div class="info">
+                        <i class="fab fa-cuttlefish"></i>
+                        <span>C</span>
+                    </div>
+                </div>
+
+                <div class="bar programming">
+                    <div class="info">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                </div>
+                
+                <div class="bar programming">
+                    <div class="info">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <div class="bar dm">
+                    <div class="info">
+                        <i class="fa-regular fa-registered"></i>
+                        <span>R Programming</span>
+                    </div>
+                </div>
+
+                <div class="bar dv">
+                    <div class="info">
+                        <i class="fas fa-file-excel"></i>
+                        <span>Excel</span>
+                    </div>
+                </div>
+
+                <div class="bar non-tech">
+                    <div class="info">
+                        <img src="img/devops.png"> 
+                        <span>Devops</span>
+                    </div>
+                </div>
+
+                <div class="bar non-tech">
+                    <div class="info">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>AI/ML</span>
+                    </div>
+                </div>
+                <div class="bar non-tech">
+                    <div class="info">
+                        <i class="fa-solid fa-database"></i>
+                        <span>Data Science</span>
+                    </div>
+                </div>
+
+                <div class="bar dv">
+                    <div class="info">
+                        <i class="fas fa-chart-pie"></i>
+                        <span>Power BI</span>
+                    </div>
+                </div>
+
+                <div class="bar dv">
+                    <div class="info">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Tableau</span>
+                    </div>
+                </div>
+
+                <div class="bar non-tech">
+                    <div class="info">
+                        <img src="img/git.png">
+                        <span>Git</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- **********    Projects   ***********************-->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <!-- Swiper -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/pp.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Portfolio Website</h3>
+                                <p>Designed and developed a responsive portfolio website using HTML, CSS, and JavaScript. The website showcases my projects, skills, and contact information. It features a clean and modern design, smooth animations, and a user-friendly interface.</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/prj/1.png" alt="Project">
+                            <div class="layer">
+                                <h3>AgroVision</h3>
+                                <p>AI-Driven-Crop-Disease-Prediction-and-Management. AgroVision provides a technology-driven platform
+                                     to address agricultural challenges. It features AI-powered crop disease detection, personalized
+                                      recommendations, resource calculators, and 24/7 real-time chat support. Our goal is to optimize 
+                                      farm productivity, enhance sustainability, and empower farmers with data-driven decision-making tools.</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Repeat for additional projects -->
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/prj/2.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Todo-List Website</h3>
+                                <p>This is a user-friendly Todo List website built using HTML, CSS, and JavaScript.
+                                    It allows users to efficiently manage their daily tasks. Users can add tasks, 
+                                    mark them as complete, or delete them as needed. The intuitive design ensures 
+                                    a seamless experience, and the project is fully deployed for easy access. 
+                                   Perfect for staying organized and productive!</p>
+                                <a href="https://kaviyag.neocities.org/todo%20list/"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/prj/3.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Real Estate Price Prediction</h3>
+                                <p>This project predicts house prices in Bangalore using a dataset from Kaggle.
+                                     It involves data preprocessing and one-hot encoding techniques. A regression model is built 
+                                     using features like location and BHK. The model estimates prices based on these factors for 
+                                     prediction, and it is implemented using Python.</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/prj/6.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>N-Queens-Visualizer-GUI</h3>
+                                <p>The N-Queens problem involves placing n queens on an n×n chessboard such that no two queens 
+                                    attack each other. The algorithm uses backtracking to place queens row by row, ensuring no two 
+                                    queens share the same row, column, or diagonal. If no safe position is found, it backtracks 
+                                    to reposition the previous queen. The time complexity of the backtracking solution is O(N!).</p>
+                                <a href="https://github.com/Kaviya12223/N-Queen-Visualizer"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/prj/8.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Breast Cancer Prediction</h3>
+                                <p>Created a Breast Cancer Prediction project in R programming, used the K-Nearest Neighbors (KNN) algorithm.
+                                     This project involved data preprocessing, normalization, and visualizations like pie charts, histograms,
+                                      and pair plots. The model achieved 98% accuracy, with sensitivity of 100%, specificity of 91.3%,
+                                       and Kappa of 0.9418. Key libraries used included ggplot2, caret, class, and gmodels.</p>
+                                <a href="https://github.com/Kaviya12223/Predictive_Analysis_R"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/prj/5.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>India's Grocery Price Analysis</h3>
+                                <p>Created a dashboard analyzing grocery price trends from 1994 to 2024. 
+                                    Used data cleaning techniques and Excel features like slicers, macros, 
+                                    and charts to make the dashboard interactive. The dashboard provides insights 
+                                    into demand trends and price comparisons across India. Performed data 
+                                    cleaning, analysis, and visualization in the form of the dashboard.</p>
+                                <a href="https://www.linkedin.com/posts/kaviya-g-670685254_lpu-scse-activity-7184610272332988416-8ekI?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/prj/9.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Sales Data Analysis and Dashboard</h3>
+                                <p>Created my first dashboard in R, analyzing the sales data of a store. 
+                                    The project involved exploring trends, patterns, and insights to aid business 
+                                    decisions, visualizing sales trends across regions and categories. 
+                                    I identified top-performing products and salespeople, providing valuable insights into the store's operations. 
+                                    The project utilized various R libraries for data analysis and visualization.</p>
+                                <a href="https://www.linkedin.com/posts/kaviya-g-670685254_rprogramming-lpu-scse-activity-7190390596593766401-Ccw3?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- Swiper Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- Swiper Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ****************  Certifications ********************-->
+    <div id="certi">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <!-- Swiper -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/gfg.png" alt="Project">
+                            <div class="layer">
+                                <h3>DSA Self-Paced</h3>
+                                <p>I had completed the DSA Self-Paced course from GeeksforGeeks</p>
+                                <a href="https://www.geeksforgeeks.org/user/kaviyag/"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat for additional projects -->
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/ibm.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>IBM DevOps and Software <br>Engineering</h3>
+                                <p>I had completed the IBM DevOps and Software Engineering from Coursera</p>
+                                <a href="https://coursera.org/share/51821640c70438e35198f918b43a559e"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/cf.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Data Structures & Algorithms<br> - Interview Preparation</h3>
+                                <p>I have Earned a certificate from Cipher Schools in Data Structures and Algorithms - Interview Preparation</p>
+                                <a href="https://www.linkedin.com/posts/kaviya-g-670685254_cipherschools-dsa-programming-activity-7247104540431286272-bwj-?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/nptel.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Cloud Computing</h3>
+                                <p>completed the NPTEL Cloud Computing course and received a certificate.</p>
+                                <a href="https://internalapp.nptel.ac.in/B2C/exam_form/index.php"><i class="fas fa-external-link-alt"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/c++.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Programming in C++</h3>
+                                <p>Completed Programming in C++: A Hands-on Introduction Certification from coursera</p>
+                                <a href="https://www.coursera.org/account/accomplishments/specialization/MPT23MK9W4NS"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/neodsa.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Data Structures & Algorithms</h3>
+                                <p>Completed Data Structures and Algorithms course from NeoColab</p>
+                                <a href="https://www.linkedin.com/posts/kaviya-g-670685254_datastructures-algorithms-learningjourney-activity-7156317748732592128-fzuh?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/neocpp.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Object Oriented Programming</h3>
+                                <p>Completed Object Oriented Programming course from NeoColab</p>
+                                <a href="https://www.linkedin.com/posts/kaviya-g-670685254_cplusplus-programmingjourney-techeducation-activity-7156319925970640896-Gei2?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/linkedin.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>BECOME A DATA SCIENTIST</h3>
+                                <p>completed Become a Data Scientist course from LinkedIn Learning</p>
+                                <a href="https://www.linkedin.com/posts/kaviya-g-670685254_hello-friends-i-have-just-completed-become-activity-7033032528416358400-ABE5?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/d-ai.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Introduction to Generative AI</h3>
+                                <p>Completed Introduction to Generative AI course from DeepLearning.AI</p>
+                                <a href="https://www.linkedin.com/posts/kaviya-g-670685254_hello-connections-im-excited-to-share-activity-7154422769026252800-LVNs?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/llm.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Introduction to Large<br> Language Models</h3>
+                                <p>Completed Introduction to Large Language Models course from Google Cloud.</p>
+                                <a href="https://www.linkedin.com/posts/kaviya-g-670685254_activity-7158886640453648385-MCdf?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/tab.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Data Analysis with Tableau</h3>
+                                <p>Completed Data Analysis with Tableau course from Coursera with Tableau Learning Partner</p>
+                                <a href="https://www.coursera.org/account/accomplishments/verify/Z12272V8B5SG"><i class="fas fa-external-link-alt"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/bi.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Create Sales Dashboard <br>using Power BI</h3>
+                                <p>Created Sales Dashboard using Power BI from coursera project Network</p>
+                                <a href="https://www.coursera.org/account/accomplishments/verify/JSNEYMZM6SYD"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/certi/fake.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Fake News Detection with<br> Machine Learning</h3>
+                                <p>Completed Fake News Detection with Machine Learning Giuded Project from Coursera project network</p>
+                                <a href="https://www.coursera.org/account/accomplishments/verify/W5YEFXJ6TBUT"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!-- Swiper Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- Swiper Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--**************     extra  **********************-->
+    <div id="extra">
+        <div class="container">
+            <h1 class="sub-title">Extracurricular Activities</h1>
+            <!-- Swiper -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/ex/2.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Winner of the Event</h3>
+                                <p> I emerged as the winner of the Literary Labyrinth - A Language-oriented Competitive Treasure Hunt at Lovely Professional University!</p>
+                                <a href="https://www.linkedin.com/posts/kaviya-g-670685254_lpu-literarylabyrinth-eventwinner-activity-7256563284345053185-rVB_?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/ex/7.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Smart India Hackathon 2024</h3>
+                                <p>A Remarkable Experience with our team 'Tech Elite'
+                                    We had an amazing experience participating in this year’s Smart India Hackathon, where our team, Tech Elite, worked on AgroVision Project – an AI-driven Crop Disease Detection and Management Platform</p>
+                                    <a href="https://www.linkedin.com/posts/kaviya-g-670685254_scse-lpu-smartindiahackathon-activity-7242602040453971971-SObm?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/ex/5.png" alt="Project">
+                            <div class="layer">
+                                <h3>Run for Equality 2.0</h3>
+                                <p>I had the privilege of organizing the "Run for Equality 2.0" event as a volunteer. My role involved guiding athletes, resolving their queries, marking attendance, and cheering them on during the race. It was inspiring to witness the energy and unity as we promoted equality.</p>                                
+                                <a href="https://www.linkedin.com/posts/kaviya-g-670685254_hello-connections-im-thrilled-to-share-activity-7238219702240473088-2wmC?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat for additional projects -->
+                    
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/ex/1.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>A Few grams can’t take you down</h3>
+                                <p>I had the honor of participating in Vinesh Phogat's rally held on our campus. The event was an incredible experience, promoting strength, resilience, and the spirit of never giving up. It was inspiring to join fellow students in supporting such a powerful message. This rally left me motivated to embrace challenges with determination and positivity.</p>
+                                <a href="https://www.instagram.com/p/C_Q4WhnSxbR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/ex/4.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Tree Plantation drive (LPU - NSS)</h3>
+                                <p>I participated in a tree plantation drive organized by LPU's National Service Scheme, promoting environmental sustainability. Planting trees with fellow volunteers was a fulfilling experience, inspiring me to contribute more to preserving our environment.</p>
+                                <a href="https://www.linkedin.com/in/kaviya-g-670685254/overlay/experience/2448698519/multiple-media-viewer/?profileId=ACoAAD6_dXQBdleQn8mZlzfYw7U_P1SLPrdEdms&treasuryMediaId=1724861363888"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/ex/3.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>Freshmen Induction at Lovely Professional University</h3>
+                                <p>I had the opportunity to participate as an NSS volunteer during the freshmen induction at LPU. It was a rewarding experience to welcome the 2024 batch and introduce them to LPU's vibrant culture and NSS unit Prabhat's impactful work. Guiding the new students was both enjoyable and inspiring.</p>
+                                <a href="https://www.instagram.com/p/C-SP3H0yRCU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/ex/Screenshot 2025-01-09 115843.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>FUSION CRAFT: Mastering 3D Modeling Workshop</h3>
+                                <p>I participated as a volunteer in FUSION CRAFT: Mastering 3D Modeling Workshop from 22nd February to 5th March 2024. The workshop focused on 3D modeling, robotics design, and hands-on projects, offering valuable experience and E-certificates.</p>
+                                <a href="https://www.linkedin.com/posts/renovation-tech-robotics-and-aeromodelling_fusion-craft-mastering-3d-modeling-workshop-activity-7162720481802924032-D6sV?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="img/ex/6.png" alt="Project Image">
+                            <div class="layer">
+                                <h3>RTRA Robotics Olympiad 1.0</h3>
+                                <p>RTRA Robotics Olympiad 1.0 was held on 3rd November, bringing together brilliant minds and discussions on future Robotics and Automation technologies. We were honored by the presence of Dr. Raam Dheep and Dr. Yogesh Kumar, and thankful to our volunteers for ensuring the event's success.</p>
+                                <a href="https://www.instagram.com/p/CzOBnmlPxiy/?utm_source=ig_web_copy_link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- Swiper Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- Swiper Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--***********  contact  **************************-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i></a>kaviyamythili8@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>7812867157</p>
+                    <div class="social-icons">
+                        <a href="kaviyamythili@outlook.com"><i class="fa-regular fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/kaviya-g-670685254/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Kaviya12223"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/kaviya__g_"><i class="fab fa-instagram"></i></a>
+                        
+                    </div>
+                    <div class="btn" data-aos="zoom-out" data-aos-duration="100" data-aos-delay="100">
+                        <a href="https://drive.google.com/file/d/1JLtQ1-NZqrzEk8ON67P1hG6PJ16i8nYD/view?usp=sharing" target="https://drive.google.com/file/d/1JLtQ1-NZqrzEk8ON67P1hG6PJ16i8nYD/view?usp=sharing">
+                            <button>Download CV</button>
+                        </a>
+                    </div>                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name = "Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name ="Message"  rows="6" placeholder="Your message"></textarea>
+                        <div class="btn" data-aos="zoom-out" data-aos-duration="100" data-aos-delay="100">
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </div>
+                    </form>
+                    <span id="status"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"> 
+            <p>Copyright &copy; Kaviya G</p>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0,});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
